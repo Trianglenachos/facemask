@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <head>
-<title>Secret Knock</title>
+<title>Ralf Gloudemans</title>
 
 <!-- include a-frame -->
 <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
@@ -24,13 +24,8 @@
 		  </a-assets>
 
 		<!-- handle 1 marker -->
-		<a-marker type='barcode' value='4'>
+		<a-marker-camera type='barcode' value='4'>
 			<a-entity gltf-model="#figure" scale="1 1 1"></a-entity>
-		</a-marker>
-
-		<!-- handle 2 marker -->
-		<a-marker type='barcode' value='2'>
-			<a-sphere radius="1.25" color="#EF2D5E"></a-sphere>
 		</a-marker>
 
 		<!-- add a simple camera -->
